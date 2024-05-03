@@ -270,6 +270,7 @@ void nonRepeatingElement(vector<int>arr){
 }
 // 16. Find all symmetric pairs in array
 
+
 // 17. Maximum product subarray in an array
 
 // 18. Replace each element of the array by its rank in the array
