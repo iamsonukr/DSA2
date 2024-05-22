@@ -356,14 +356,14 @@ int binarySearch(vector<int>arr,int low,int high,int num){
 
 // 25. Check if Array is a subset of another array or not
 bool isSubset(vector<int>arr1,vector<int>arr2){
-    unordered_set<int>hashMap;
+    unordered_set<int>hm;
 
     for(auto x:arr1){
         hashMap.insert(x);
     }
 
     for(auto y:arr2){
-        if(hashMap.find(y)==hashMap.end()){
+        if(hm.find(y)==hm.end()){
             cout<<"Not a subset "<<endl;
             return false;
         }
