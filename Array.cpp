@@ -364,7 +364,8 @@ bool isSubset(vector<int>arr1,vector<int>arr2){
 
     for(auto y:arr2){
         if(hm.find(y)==hm.end()){
-            cout<<"Not a subset "<<endl;
+            cout<<"Not aa subset "<<endl;
+
             return false;
         }
     }
