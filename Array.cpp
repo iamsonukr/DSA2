@@ -339,6 +339,15 @@ int equalIndex(vector<int>arr){
 
 
 // 23. Sort an array according to the order defined by another array
+void sortAccording(vector<int>arr,vector<int>arr2){
+    vector<int>res;
+    int size=arr.size();
+    for(int i=0;i<size;i++){
+        int pos=arr[i];
+        res[pos]=arr2[i]
+    }
+    return;
+}
 
 
 // 24. Search an element in an array
